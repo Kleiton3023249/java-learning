@@ -1,4 +1,4 @@
-package conceitoJAVA.pilaresPoo;
+package conceitoJAVA.pilaresPoo.exemplo;
 
 public class Autodromo {
     public static void main(String[] args) {

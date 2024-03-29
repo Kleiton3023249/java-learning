@@ -1,4 +1,4 @@
-package conceitoJAVA.pilaresPoo;
+package conceitoJAVA.pilaresPoo.exemplo;
 
 //é preciso definir a classe mãe como abstrata para
 //criar um método abstrato, se esse método não for
