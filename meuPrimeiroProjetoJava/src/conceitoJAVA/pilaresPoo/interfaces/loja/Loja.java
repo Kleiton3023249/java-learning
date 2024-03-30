@@ -1,9 +1,6 @@
 package conceitoJAVA.pilaresPoo.interfaces.loja;
 
-import conceitoJAVA.pilaresPoo.interfaces.copiadora.Copiadora;
 import conceitoJAVA.pilaresPoo.interfaces.copiadora.Xerox;
-import conceitoJAVA.pilaresPoo.interfaces.digitalizadora.Digitalizar;
-import conceitoJAVA.pilaresPoo.interfaces.impressora.Impressora;
 import conceitoJAVA.pilaresPoo.interfaces.multifuncional.Ricohpy;
 
 public class Loja {
@@ -39,7 +36,7 @@ public class Loja {
 
     /** Nesse caso não funciona para imprimir, pois xerox apenas tem o método copiar */
 
-    
+
     // Impressora imp = xe;
     // xe.imprimir();
 
