@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
+    "java.project.outputPath": "C:\\Users\\kleyt\\Downloads\\CURSOS\\PROJETO_JAVA\\java-learning\\meuPrimeiroProjetoJava\\bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
     ]

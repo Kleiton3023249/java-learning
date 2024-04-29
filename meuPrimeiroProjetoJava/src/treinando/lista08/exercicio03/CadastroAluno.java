@@ -2,26 +2,27 @@ package treinando.lista08.exercicio03;
 
 import java.util.ArrayList;
 
-public class CadastroAluno extends Aluno{
+public class CadastroAluno {
 
-    private ArrayList<Intenger> lista = new ArrayList<>();
+    public ArrayList<Aluno> minhaLista;
 
-    public void implementar(Aluno aluno) {
-        lista.add(aluno);
+    public void iniciarLista() {
+        minhaLista = new ArrayList<>();
     }
 
-    public void organizar(){
-        for (Aluno aluno: lista ) {
-            if (list.get(aluno) > list.get(aluno + 1)) {
-                Aluno temp = aluno + 1;
-                aluno + 1 = aluno;
-                aluno = temp;
-            }
+
+    public void adicionarAluno(Aluno aluno) {
+        minhaLista.add(aluno);
+    }
+
+    public void ordenarAluno() {
+        Collections.sort(minhaLista);
+    }
+
+    public void imprimirAluno() {
+        for ( Aluno aluno : minhaLista) {
+            System.out.println("Matrícula: " + aluno.getMatricula() + ", Nome: " + aluno.getNome() + ", Curso: " + aluno.getCurso());
         }
     }
-
-
-
-
 
 }

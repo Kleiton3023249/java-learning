@@ -11,6 +11,6 @@ public class Divbyzero extends ArithmeticException {
     }
 
     public String toString() {
-        return "Divisão por zero"
+        return "Divisão por zero";
     }
 }

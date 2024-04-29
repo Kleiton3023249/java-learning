@@ -5,7 +5,7 @@ public class Conta {
 
     public void sacar(double saida) throws Exception {
         if (saldo <= saida) {
-            throw new SaldoException("Ta gastando muito em")
+            throw new SaldoException("Ta gastando muito em");
         } else saldo -= saldo; 
     }
 

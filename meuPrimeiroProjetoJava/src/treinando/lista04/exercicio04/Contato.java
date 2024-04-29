@@ -28,8 +28,9 @@ public abstract class Contato {
 
     public void ordenarCrescente( long[] array) {
         long n = array.length;
-        for(int i = 0; i < n - 1; i++)
+        for(int i = 0; i < n - 1; i++);
     }
+
 
     public long getCpf() {
         return cpf;

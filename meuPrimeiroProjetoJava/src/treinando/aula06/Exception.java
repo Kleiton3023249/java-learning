@@ -9,11 +9,11 @@ public class Exception {
         }
 
         catch(NumberFormatException e) {
-            JOptionPane.showMessageDialog(null, "Formato inválido \n\n\ " +  "Detalhes do erro:" + e.getMessage());
+            JOptionPane.showMessageDialog(null, "Formato inválido, Detalhes do erro:" + e.getMessage());
         }
 
         catch(ArithmeticException e) {
-            JOptionPane.showMessageDialog(null, "Operação inválida \n\n\ " +  "Detalhes do erro:" + e.getMessage());
+            JOptionPane.showMessageDialog(null, "Operação inválida, Detalhes do erro:" + e.getMessage());
         }
 
         finally {
